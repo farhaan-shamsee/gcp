@@ -18,7 +18,24 @@
   - This happens because LLMs can only understand the information they were trained on.
   - they often assume that the prompt is true. Hallucinations can be caused by a number of factors, including: The model is not trained on enough data.
   - ![image](https://github.com/user-attachments/assets/47db8b5a-a933-4578-b086-ffcf9d495ed5)
-  - 
+
+## Prompts:
+
+- Prompts can be in the form of a question, and are categorized into four categories: zero-shot, one-shot, few-shot, and role prompts.
+  - Zero-shot prompts do not contain any context or examples to assist the model.
+  - One-shot prompts, however, provide one example to the model for context.
+  - And few-shot prompts provide at least two examples to the model for context.
+  - ![image](https://github.com/user-attachments/assets/f9dc69c1-ac94-4535-b952-4f73baa21384)
+  - role prompts which require a frame of reference for the model to work from as it answers the questions.
+  - ![image](https://github.com/user-attachments/assets/d20b3677-95f5-43aa-9cfd-594e55fee7a0)
+  -  the two elements of a prompt: the preamble and the input
+  -  preamble: introductory text you provide to give the model context and instructions before your main question or request.
+  -  ![image](https://github.com/user-attachments/assets/46008da5-9acb-4bf7-b629-68d60a128fe9)
+  -  input is the central request you're making to the LLM. It’s what the instruction or task will act upon,
+  -  
+
+
+
 
 
    
