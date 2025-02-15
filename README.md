@@ -61,5 +61,10 @@ Data is a time-series or has natural semantic ordering.
 - We’ll begin with Cloud Run, which is a managed compute platform that runs stateless containers via web requests or Pub/Sub events.
 - Bult on Knative
 - ![image](https://github.com/user-attachments/assets/e35680ca-ba39-4afb-bc23-78a7ff272810)
-- 
+- Source based workflow
+  - The source-based approach will deploy source code instead of a container image.
+  - Cloud Run then builds the source and packages the application into a container image.
+  - Cloud Run does this using Buildpacks - an open source project.
+  - You can use Cloud Run to run any binary, as long as it’s compiled for Linux sixty-four bit.
+  - As long as your app handles web requests, you’re good to go.
 
