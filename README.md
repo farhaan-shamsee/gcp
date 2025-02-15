@@ -54,3 +54,12 @@ Firestore is a flexible, horizontally scalable, NoSQL cloud database for mobile,
 Bigtable is Google's NoSQL big data database service. same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.
 When deciding which storage option is best, customers often choose Bigtable if: They’re working with more than 1TB of semi-structured or structured data.
 Data is a time-series or has natural semantic ordering.
+
+
+## CloudRun
+
+- We’ll begin with Cloud Run, which is a managed compute platform that runs stateless containers via web requests or Pub/Sub events.
+- Bult on Knative
+- ![image](https://github.com/user-attachments/assets/e35680ca-ba39-4afb-bc23-78a7ff272810)
+- 
+
