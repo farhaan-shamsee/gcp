@@ -49,4 +49,8 @@ Firestore is a flexible, horizontally scalable, NoSQL cloud database for mobile,
 
 ![image](https://github.com/user-attachments/assets/0540e0ea-e555-473e-b34e-0c3a7e519f4f)
 
-4. Bigtable
+### Bigtable
+
+Bigtable is Google's NoSQL big data database service. same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.
+When deciding which storage option is best, customers often choose Bigtable if: They’re working with more than 1TB of semi-structured or structured data.
+Data is a time-series or has natural semantic ordering.
