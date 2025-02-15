@@ -28,8 +28,13 @@
   - And then there is the Transfer Appliance, which is a rackable, high-capacity storage server that you lease from Google Cloud. You connect it to your network, load it with data, and then ship it to an upload facility where the data is uploaded to Cloud Storage.
   - 
 
+### Cloud SQL
 
-1. Cloud SQL
+Cloud SQL offers fully managed relational databases, including MySQL, PostgreSQL, and SQL Server as a service.
+
+- automatic replication
+- ![image](https://github.com/user-attachments/assets/2aec1b72-66c3-4369-b27f-42c24ac4f723)
+
 2. Spanner
 3. Firestrom
 4. Bigtable
