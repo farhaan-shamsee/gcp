@@ -67,4 +67,5 @@ Data is a time-series or has natural semantic ordering.
   - Cloud Run does this using Buildpacks - an open source project.
   - You can use Cloud Run to run any binary, as long as it’s compiled for Linux sixty-four bit.
   - As long as your app handles web requests, you’re good to go.
+  - Events from Cloud Storage and Pub/Sub can trigger Cloud Run functions asynchronously, or you can use HTTP invocation for synchronous execution.
 
