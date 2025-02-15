@@ -35,6 +35,18 @@ Cloud SQL offers fully managed relational databases, including MySQL, PostgreSQL
 - automatic replication
 - ![image](https://github.com/user-attachments/assets/2aec1b72-66c3-4369-b27f-42c24ac4f723)
 
-2. Spanner
-3. Firestrom
+
+### Spanner
+
+Spanner is a fully managed relational database service that scales horizontally, is strongly consistent, and speaks SQL.
+
+![image](https://github.com/user-attachments/assets/5017f499-ede8-4eed-8658-7bc2dec7920b)
+
+### Firestrom
+Firestore is a flexible, horizontally scalable, NoSQL cloud database for mobile, web, and server development. With Firestore, data is stored in documents and then organized into collections. Each document contains a set of key-value pairs.
+
+![image](https://github.com/user-attachments/assets/b77cb8fd-6434-4c3d-bc64-09c153b3fcf8)
+
+![image](https://github.com/user-attachments/assets/0540e0ea-e555-473e-b34e-0c3a7e519f4f)
+
 4. Bigtable
