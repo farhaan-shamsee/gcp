@@ -104,4 +104,18 @@ Toil is work directly tied to a service that is manual, repetitive, automatable,
 - There are exceptions to this rule of course, because there might be a problem that does not result in user-visible symptoms.
 - Capacity alerts can be an example of this.
 - If you know you will exhaust a particular limit soon, it wants an alert even if there is no user-visible symptom yet.
+- ![image](https://github.com/user-attachments/assets/1a125806-3fcd-444e-abd5-24aa02c9ef7d)
+
+
+## Goal Settings
+
+- Google uses OKRs, objectives and key results, as KPIs.
+- OKRs are usually graded on a scale of to where indicates a fully achieved objective.
+- Consider these things when grading OKRs.
+- The optimal point for an OKR grade is to %.
+- Think big when developing your OKRs.
+- OKRs are not synonymous with performance evaluation, instead they show individuals' contributions and impact.
+
+## 
+
 
