@@ -115,7 +115,63 @@ Toil is work directly tied to a service that is manual, repetitive, automatable,
 - The optimal point for an OKR grade is to %.
 - Think big when developing your OKRs.
 - OKRs are not synonymous with performance evaluation, instead they show individuals' contributions and impact.
+- ![image](https://github.com/user-attachments/assets/a9d681ed-b39c-4751-8a16-d50466b3ce68)
+- There are several common biases that show up in organizations and influence the way decisions are made.
+- Affinity bias, this is a bias towards those who are similar to you.
+- This could mean similar in many different ways, such as race, gender, socioeconomic background, or education level.
+- People tend to gravitate towards those who are like them.
+- Confirmation bias, this bias is the tendency to find information, input, or data that supports your preconceived notions.
+- Labeling bias, this bias is making opinions based on how people look, dress, or show up externally.
+- Selective attention bias, this bias is when you pay attention to things, ideas, and input from people you tend to gravitate toward.
+- All of these biases can create environments that are not very diverse or inclusive.
+- They can also impact the creativity, innovation, morale, engagement, and turnover in an organization.
 
-## 
+
+## Organizational Maturity
+
+Organizational maturity is considered low if your organization has not yet adopted SRE principles, practices, and culture.
+
+- ![image](https://github.com/user-attachments/assets/75256980-a50a-4fa6-a038-cac64dca957e)
+- Well-documented and user-centric SLOs, where a target level of reliability is ideally correlated with customer happiness.
+- Error budgets, which are budgets for failure.
+- The error budget is the difference between perfection and your SLO.
+- They allow IT teams to move fast as long as the budget is not exhausted, but with defined actions to improve reliability if the production service fails.
+- A blameless postmortem culture.
+- This culture recognizes that things will go wrong and that human errors are really systems problems.
+- A low tolerance for toil.
+- Again, toil is work that tends to be manual, repetitive, automatable, tactical, and devoid of enduring value, and that scales linearly as a service grows.
+- ![image](https://github.com/user-attachments/assets/8d11c249-8f8c-40fb-ae75-71df6523d6e7)
+
+## SRE TEAM
+
+- ![image](https://github.com/user-attachments/assets/91eaa164-7ff3-4fc8-9f5b-f26b0ca4254f)
+-  kitchen sink:
+  -  If you've never created an SRE team, this is a good place to start.
+  -  ![image](https://github.com/user-attachments/assets/405baef4-f3a1-41d2-8d05-e44a7c2d9dcb)
+  -  ![image](https://github.com/user-attachments/assets/182739e3-fe25-4b20-af73-c293f886a34c)
+  - There are several benefits to kitchen sink implementation.
+  - There are no coverage gaps between SRE teams given that only one team is in place.
+  - It's easy to spot patterns and draw similarities between services and projects.
+  - SREs tend to act as glue between disparate developer teams, creating solutions at a distinct pieces of software.
+  - There are also several disadvantages.
+  - There's usually a lack of an SRE team charter, or the charter states that everything in the company can be in scope, running the risk of overloading team.
+  - As the company and system complexity grows, the team tends to move from having a deep positive impact on everything, to making more shallow contributions.
+  - And issues involving a team may negatively impact your entire business.
+- Infrastructure:
+  - This type of team focuses on behind the scenes tasks, that help make other team's jobs easier and faster.
+  - They work on maintaining shared services and components related to infrastructure, versus an SRE team dedicated to working on services related to products, like customer facing code.
+  - ![image](https://github.com/user-attachments/assets/71c3e42e-59d1-4347-a40a-cd52865b7596)
+  - It is common for large companies to have both an infrastructure DevOps team and SRE team, where the DevOps team focuses on features, and SRE focuses on reliability.
+  - A benefit of the infrastructure implementation is that it allows product developers to use DevOps practices to maintain user facing products, without divergence in practice across the business.
+  - ![image](https://github.com/user-attachments/assets/f42504ca-01de-4f2d-ba30-f322f0b0ecec)
+  - They will often define production standards as code, and work to smooth out any sharp edges to greatly simplify things for the product developers running their own services.
+  - 
+
+
+
+
+
+
+
 
 
