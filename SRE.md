@@ -39,3 +39,25 @@ If you think about SRE as a journey, the first step is to develop service level 
 - Canaries are smaller and breathe faster than humans, so if they died, the miners knew there was danger. The small thing detects danger as we go into the unknown.
 - We have a large service that we want to sustain. We are okay losing a small portion of it. We employ a production change with unknown impact to the small portion to detect danger.
 - Canarying is deploying a change in service to a group of users who don't know they are receiving the change, evaluating the impact to that group, then deciding how to proceed. If the change contains bugs, the cost is much less than if it was rolled out to the whole system and can be reversed quickly.
+- Design thinking is one approach that combines creativity and structure to solve complex problems.
+- Design thinking methodology has five phases.:
+  - empathize,
+  - define the problem you are attempting to solve.
+  - ideate: Now that you've defined the problem, you can start generating ideas for solutions.
+  - prototype: ou can get the ideas out of your head and into the real world. It's meant to be experimental, so you can identify the best possible solution before committing.
+  - test: You'll want to test your prototype solutions in a real-world setting with your intended users.
+- Physical prototyping
+- Paper and drawing.
+- Clickable
+- role play
+- video
+
+## TOIL
+
+Toil is work directly tied to a service that is manual, repetitive, automatable, tactical, without enduring value, or that scales linearly as the service grows.
+
+- ![image](https://github.com/user-attachments/assets/4777ddde-2183-4b68-90eb-af5affd1497b)
+- By keeping your SREs working on toil less than 50% of the time, you're also distinguishing the SRE role as clearly different from a typical operations role.
+- ![image](https://github.com/user-attachments/assets/c352ecf0-ca40-421d-a43c-fa5d31e7e91c)
+
+
