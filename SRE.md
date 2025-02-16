@@ -31,3 +31,11 @@ If you think about SRE as a journey, the first step is to develop service level 
 - an SLA, which you are likely familiar with already, is the promise you make about your service's health to your customers.
 - It defines what your business is willing to do if you fail to meet your SLOs. For example, refunding money.
 
+## CICD, Canarying
+
+- SREs believe that change is best when it is small and frequent. Although change is risky, it's less disruptive to users when rolled out in smaller waves.
+- Continuous integration, usually refers to building, integrating, and testing code within the development environment. The main goal of this practice is to enable engineers to work on code and test more often.
+- Continuous delivery just means that you can deploy to production frequently, but may choose not to, usually due to businesses preferring a slower rate of deployment.
+- Canaries are smaller and breathe faster than humans, so if they died, the miners knew there was danger. The small thing detects danger as we go into the unknown.
+- We have a large service that we want to sustain. We are okay losing a small portion of it. We employ a production change with unknown impact to the small portion to detect danger.
+- Canarying is deploying a change in service to a group of users who don't know they are receiving the change, evaluating the impact to that group, then deciding how to proceed. If the change contains bugs, the cost is much less than if it was rolled out to the whole system and can be reversed quickly.
