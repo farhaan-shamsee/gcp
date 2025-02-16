@@ -59,5 +59,49 @@ Toil is work directly tied to a service that is manual, repetitive, automatable,
 - ![image](https://github.com/user-attachments/assets/4777ddde-2183-4b68-90eb-af5affd1497b)
 - By keeping your SREs working on toil less than 50% of the time, you're also distinguishing the SRE role as clearly different from a typical operations role.
 - ![image](https://github.com/user-attachments/assets/c352ecf0-ca40-421d-a43c-fa5d31e7e91c)
+- 
 
+## psychology of change
+
+- Navigators, these are the people who will make teams and businesses successful, as leaders, spot them and celebrate their behaviors, use them as champions for the change.
+- Critics, these are the second type of individuals that you should care about, they have passion and energy, critics care, and they have valid fears, so it's important not to ignore them. Spend time with them, because they will be very powerful advocates if you can persuade them.
+- Victims, often this type of individual just needs to get their emotions out, victims tend to take organizational change very personally.
+- bystanders have no idea what's going on, and they will just continue as if nothing or no change is happening, you should try to communicate with them, to ascertain their feelings.
+
+## Regulate Workload
+
+- Choosing good SLIs is key to measuring reliability. You are making a connection between your SLIs and your user's experience so you'll want to decide what to measure based on their perspective.
+- For example, it doesn't matter to a user whether your database is down or if your load balancers are sending requests to bad backends.  They experience a slowly loading web page, and that makes them unhappy. If you can quantify slowness, you can then tell how unhappy your users are in aggregate, which lets you define your SLO.
+- ![image](https://github.com/user-attachments/assets/a360910d-a324-41ac-b11d-3de4c4b26357)
+- The biggest risk you have to contend with is that perhaps the SLI doesn't recover after the outage as quickly as you might have hoped for.
+- The second aspect to measure is toil.
+- As you've learned, toil is work that is directly tied to running a service that is manual, repetitive, automatable, tactical, and without enduring value.
+- You can measure toil in three steps.
+- First, identify it.
+- Who is best positioned to identify toil depends on your organization.
+- Ideally, these people are stakeholders and those who perform the actual work.
+- Next, select an appropriate unit of measure.
+- This unit needs to express the amount of human effort applied to this toil.
+- Minutes and hours are a good choice because they are objective and universally understood.
+- And third, track the measurements continuously.
+- Do this before, during, and after toil reduction efforts.
+- Streamline the measurement process using tools or scripts so that collecting these measurements doesn't create additional toil.
+- Start simple, count the number of tickets you receive, count the number of alerts, collect alert stats on cause and action.
+- These can prove useful in identifying the source of toil.
+- You can measure actual human time spent on toil by collecting data, either in the ticketing system directly or by asking your team to estimate the time spent on toil every day or week.
+- Monitoring allows you to gain visibility into a system, which is a core requirement for judging service health and diagnosing your service when things go wrong.
+- Let's first look at what you should monitor.
+- It's best practice to alert on symptoms rather than causes.
+- Users don't care whether they can't get to your website because your router is rebooting or because the database is overloaded.
+- Similarly, they don't care if CPU utilization is very high if they can still access the system and it feels fast.
+- Creating a separate alert for each cause typically results in a lot of spam alerts.
+- It's better to have fewer symptom-based alerts combined with good debugging tools, like dashboards that will allow responders to more easily identify specific cause.
+- Ideally, Google recommends alerting based on error budget burn.
+- You might pay someone when you are consuming your error budget very quickly.
+- For example, when you spend ten hours worth of error budget within one hour, you might just create a ticket for a lower burn rate.
+- For example, if you spent three days worth of budget within three days, basically only escalate to a human if you risk dropping below the SLO for the month.
+- If your SLO is set correctly, you won't be paging people for problems that users don't care about.
+- There are exceptions to this rule of course, because there might be a problem that does not result in user-visible symptoms.
+- Capacity alerts can be an example of this.
+- If you know you will exhaust a particular limit soon, it wants an alert even if there is no user-visible symptom yet.
 
